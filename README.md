@@ -1,6 +1,9 @@
 # Comparing-GDP-Population-of-the-World-s-Most-Populous-Countries-in-2007-
 Bar chart comparing populations in millions, with GDP in millions, formatted for Jupyter Notebook.
 
+![Comparing GDP   Population of the World's Most Populous Countries in 2007](https://user-images.githubusercontent.com/48648985/55398086-943f7c80-553f-11e9-95a9-65ef25a1851a.png)
+
+
 import pandas as pd
 from matplotlib import pyplot as plt
 
