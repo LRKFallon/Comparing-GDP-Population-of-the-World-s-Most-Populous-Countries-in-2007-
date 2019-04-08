@@ -18,12 +18,12 @@ top10 = data_2007.sort_values('population', ascending=False).head(10)
 print(top10)
 
 import numpy as np
-#### We're going to import np for np.arange().
+#### Importing np for np.arange().
 #### np.arange(10) is similar to range(10), and it allows us to shift
 ####  each value in it by the bar width as you can see below.
 x = np.arange(10)
 
-### We need to create subplots in order to overlay two bar plots
+### Creating subplots in order to overlay two bar plots
 ### with proper axes on the left hand side and the right hand side.
 fig, ax1 = plt.subplots()
 
